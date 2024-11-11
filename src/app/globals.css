@@ -3,19 +3,85 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+color: var(--foreground);
+background: var(--background);
+font-family: Arial, Helvetica, sans-serif;
+transition: all .5s linear;
+overflow-x:hidden ;
+}
+
+
+nav ul li:hover{
+color: rgb(126, 20, 255);
+}
+
+input , textarea{
+width: 400px;
+background: #2f2c2e00;
+padding: 10px 20px;
+border-radius: 20px;
+resize: none;
+outline: none;
+}
+input:focus , textarea:focus{
+outline: 2px solid #5500e9;
+color: #5500e9;
+}
+iframe{
+border-radius: 20px;
+}
+button{
+transition: all .3s linear;
+}
+button:hover{
+background-color: #17008849;
+color: white;
+}
+
+
+@media (max-width: 920px){
+input , textarea{
+  width: 350px;
+}
+iframe{
+  width: 300px;
+}
+}
+
+@media (max-width: 768px){
+input , textarea{
+  width: 300px;
+}
+iframe{
+  width: 250px;
+}
+}
+@media (max-width: 640px){
+input , textarea{
+  width: 400px;
+}
+iframe{
+  width: 400px;
+}
+}
+
+@media (max-width: 450px){
+input , textarea{
+  width: 300px;
+}
+iframe{
+  width: 300px;
+}
+}
+
+@layer utilities {
+.text-balance {
+  text-wrap: balance;
+}
 }
