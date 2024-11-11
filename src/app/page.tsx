@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex flex-col lg:gap-5 gap-3 lg:w-1/2 lg:my-20 mt-32 mb-20 md:mb-20 lg:mx-28 mx-12">
       <h2 className="lg:text-4xl md:text-3xl text-2xl uppercase ">i am a professional</h2>
       <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-[#5500e9] uppercase">web designer</h1>
-     <p className="text-[17px] text-white md:w-[80%]">Hey I am <span className="font-bold text-[#5500e9] ">Samra Sam</span> From Karachi Pakistan, Welcome to my web developer portfolio! I'm Samra, a skilled and
+     <p className="text-[17px] text-white md:w-[80%]">Hey I am <span className="font-bold text-[#5500e9] ">Samra Sam</span> From Karachi Pakistan, Welcome to my web developer portfolio! I am Samra, a skilled and
             creative web developer with a passion for creating beautiful,
             responsive, and user-friendly websites.I am Studing Cloud AI Artificial Intelligence , Metaverse & Web 3.0 At Sindh Govornor House Karachi... A dediated Web Developer passionate about crafting engaging and user-frindly digital experiences.With a strong foundation in HTML|CSS|JAVASCRIPT|TYPESCRIPT & currently exploring in NEXT.JS...</p>
 
